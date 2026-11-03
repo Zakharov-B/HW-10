@@ -12,52 +12,55 @@ public class Main {
         firstArray[2] = 3;
         double[] secondArray = {1.57, 7.654, 9.986};
         String[] thirdArray = {"Яблоко", "Банан", "Апельсин"};
+
         //Task 2
         System.out.println("task 2");
         for (int i = 0; i < firstArray.length; i++) {
-            System.out.println(firstArray[i]);
+            System.out.print(firstArray[i]);
             if (i < firstArray.length - 1) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < secondArray.length; i++) {
-            System.out.println(secondArray[i]);
+            System.out.print(secondArray[i]);
             if (i < secondArray.length - 1) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < thirdArray.length; i++) {
-            System.out.println(thirdArray[i]);
+            System.out.print(thirdArray[i]);
             if (i < thirdArray.length - 1) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         System.out.println();
+
         //Task 3
         System.out.println("task 3");
         for (int i = firstArray.length - 1; i >= 0; i--) {
-            System.out.println(firstArray[i]);
+            System.out.print(firstArray[i]);
             if (i > 0) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = secondArray.length - 1; i >= 0; i--) {
-            System.out.println(secondArray[i]);
+            System.out.print(secondArray[i]);
             if (i > 0) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = thirdArray.length - 1; i >= 0; i--) {
-            System.out.println(thirdArray[i]);
+            System.out.print(thirdArray[i]);
             if (i > 0) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
         System.out.println();
+
         //Task 4
         System.out.println("task 4");
         for (int i = 0; i < firstArray.length; i++) {
